@@ -1,0 +1,179 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+#header {
+	background-color: #007765;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+.container {
+	margin-right: 55px;
+	margin-left: 55px;
+}
+
+#header-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#nav-ul {
+	display: flex;
+	list-style-type: none;
+	color: #fff;
+	font-size: 24px;
+	line-height: 29px;
+	font-weight: 500;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav-li .right {
+	margin-right: 8px;
+}
+
+.nav-li .left {
+	margin-left: 8px;
+}
+
+.nav-link:hover {
+	color: #aaa;
+}
+
+#jumbotron {
+	margin-top: 84px;
+	padding-top: 160px;
+	padding-bottom: 160px;
+	text-align: center;
+	background-image: url(images/back1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-size: 72px;
+	line-height: 83px;
+	color: #fff;
+	font-weight: 500;
+}
+
+.title {
+	text-align: center;
+	color: #007765;
+	padding-top: 48px;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+}
+
+.text {
+	font-weight: 400;
+	font-size: 32px;
+	line-height: normal;
+	margin-top: 16px;
+	padding-bottom: 92px;
+}
+
+#the-problem q {
+	font-weight: 700;
+}
+
+#quote {
+	background-image: url(images/back2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center;
+	color: #fff;
+	padding: 128px 163px;
+	font-size: 48px;
+	line-height: normal;
+	font-weight: 500;
+	font-style: italic;
+}
+
+#piedpiper-flex {
+	display: flex;
+	align-items: center;
+	margin-top: 16px;
+	margin-bottom: 40px;
+}
+
+#float-text {
+	margin-left: 48px;
+	font-size: 32px;
+	line-height: normal;
+	font-weight: 400;
+}
+
+#italic {
+	font-style: italic;
+}
+
+#the-team {
+	background-color: #eee;
+	padding-bottom: 94px;
+}
+
+#content {
+	margin-top: 32px;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+.team-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cell {
+	text-align: center;
+	padding: 24px 91px 28px 91px;
+}
+
+.name {
+	font-size: 24px;
+	line-height: 29px;
+	color: #007765;
+	font-weight: 700;
+	margin-top: 12px;
+}
+
+.position {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.first {
+	margin-bottom: 30px;
+}
+
+#footer {
+	background-color: #333;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	line-height: normal;
+	font-weight: 400;
+	padding-bottom: 64px;
+	padding-top: 48px;
+}
+
+#footer-content {
+	max-width: 540px;
+	margin-left: auto;
+	margin-right: auto;
+}
